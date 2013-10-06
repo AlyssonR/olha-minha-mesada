@@ -1,4 +1,4 @@
-package com.OMM.application.view;
+package com.OMM.application.user.view;
 
 import com.kilobolt.framework.Game;
 import com.kilobolt.framework.Graphics;

@@ -13,8 +13,11 @@ public class ConnectionFactory {
 	public Connection getConnection() {
 		
 		try {
+			
 			return DriverManager.getConnection(DATABASE, USERNAME, PASSWORD);
+			
 		} catch(SQLException e) {
+			
 			throw new RuntimeException(e);
 		}
 	}
